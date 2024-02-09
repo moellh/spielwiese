@@ -14,7 +14,7 @@ pip install twine
 pip install pytest
 pip install pytest-runner
 python setup.py bdist_wheel
-find -name "*.whl" | head -n 1 | pip install
+pip install $(find -name "*.whl" | head -n 1)
 ```
 
 # Testing
