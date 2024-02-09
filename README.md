@@ -3,7 +3,7 @@
 NoLib is a multipurpose math library for arbitrary math problems, written in
 python.
 
-## Make Python Library
+## Building, Installing
 
 ```bash
 python -m venv venv
@@ -17,4 +17,8 @@ python setup.py bdist_wheel
 find -name "*.whl" | head -n 1 | pip install
 ```
 
-- 
+# Testing
+
+```bash
+python setup.py pytest
+```
