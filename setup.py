@@ -10,4 +10,7 @@ setup(
     setup_requires = ["pytest-runner"],
     tests_requires = ["pytest"],
     test_suite = "tests",
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/moellh/nolib",
 )
