@@ -1,7 +1,8 @@
-# Numerical Operations Library -- NoLib
+# Spielwiese
 
-NoLib is a multipurpose math library for arbitrary math problems, written in
-python.
+*Spielwiese* is a multipurpose math library for arbitrary math problems,
+written in python.  It mostly serves as a playground for me to try out new
+things, but also keep them.
 
 ## Building, Installing
 
